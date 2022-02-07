@@ -1,0 +1,11 @@
+<odoo>
+    <data noupdate="1">
+        
+        <!-- Cron job for creating folders -->
+        <record model="ir.config_parameter" id="days_due_date">
+            <field name="key">sale.days_due_date</field>
+            <field name="value">5</field>
+        </record>
+
+    </data>
+</odoo>
